@@ -8,5 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val a = resources.getInteger(R.integer.star)
+        println("integers : $a")
     }
 }
