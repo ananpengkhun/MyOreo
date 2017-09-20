@@ -6,5 +6,37 @@
     android:layout_height="match_parent"
     tools:context="com.example.rafael238.myoreo.MainActivity">
 
+    <ImageView
+        android:id="@+id/imv_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#ec0404"
+        android:clickable="true" />
 
+    <ImageView
+        android:id="@+id/imv_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#ec0404"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imv_3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ec0404"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/imv_4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#ec0404"
+        android:clickable="true" />
 </RelativeLayout>
